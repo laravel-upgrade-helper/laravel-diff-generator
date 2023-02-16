@@ -77,7 +77,7 @@ foreach ($versionList as $index => $baseVersion) {
     }
 
     foreach ($versionsToCreate as $versionToCreate) {
-         generateDiffFile($baseVersion, $versionToCreate);
+        generateDiffFile($baseVersion, $versionToCreate);
     }
 }
 
